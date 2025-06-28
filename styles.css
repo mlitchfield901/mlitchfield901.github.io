@@ -1,14 +1,53 @@
 body {
-  width: 90%;
-  height: 100vh;
-  margin: 0;
-  background-color: #00b3b3;
+  background-color: #039f9f;
   color: #f5f6f7;
   font-family: Tahoma;
-  font-size: 16px;
+  margin: 0;
 }
 
-title{
-  margin: 1em auto;
+h1{
   text-align: center;
+}
+
+.banner{
+  background-color: #175757;
+  height: auto;
+  display: flex;
+
+}
+
+.banner_text{
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  max-width: 1000px;
+}
+
+.biography{
+  text-align: center;
+  margin: 10px auto;
+  max-width: 1000px;
+}
+
+.separation_line{
+  background-color: #c9b30b;
+  height: 10px;
+}
+
+h2{
+  margin-top: 40px;
+}
+
+p, h2{
+  padding-left: 15px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding-top: 20px;
+  clip-path: circle(50%);
 }
